@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-ghost-novela-starter",
+  "description": "A Gatsby starter for creating blogs from headless Ghost CMS.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "config": "git update-index --skip-worktree .ghost.json"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-ghost": "^1.0.0",
+    "eslint-plugin-react": "^7.19.0",
+    "gatsby": "2.21.1",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {
+    "@draftbox-co/gatsby-ghost-novela-theme": "1.0.1",
+    "dotenv": "^8.2.0",
+    "gatsby": "2.21.1",
+    "gatsby-plugin-crisp-chat": "^3.2.2",
+    "gatsby-plugin-disqus": "^1.1.4",
+    "gatsby-plugin-google-analytics": "^2.2.2",
+    "gatsby-plugin-google-tagmanager": "^2.3.5",
+    "gatsby-plugin-hotjar": "^1.0.1",
+    "gatsby-plugin-mixpanel": "^3.1.6",
+    "gatsby-plugin-olark": "^1.0.0",
+    "gatsby-plugin-segment-js": "^3.1.0",
+    "gatsby-plugin-tawk": "^1.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-facebook": "^8.1.4"
+  }
+}
