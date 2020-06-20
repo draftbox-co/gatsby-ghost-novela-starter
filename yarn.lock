@@ -1094,10 +1094,10 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.1.tgz#80ae92fc2642929fedbbc03a5d5e45c2073b556a"
-  integrity sha512-A9FmiCHs8Xq0yC6bGvU0a5lwKlQ2mI9hH96yyMVYopHuPqRDQXESJ6NMJUVjQEcL7C3/gZ5rul2jdiQ5hblwvA==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.3.tgz#002a3e217ebef63ab387ea6f17677865446d07b5"
+  integrity sha512-0uD+Cywt33ptYSTYGYgvqpbUjkUyqJZSiIZGr9JoxvbtFlS/KmvSNopYt4DbSHBylcT3Mpix+e+UhB1ay62uEw==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@blocks/kit" "^0.0.28"
@@ -1111,6 +1111,7 @@
     babel-plugin-emotion "^10.0.14"
     cheerio "^1.0.0-rc.3"
     contentful-cli "^0.36.0"
+    disqus-react "^1.0.9"
     gatsby "^2.15.7"
     gatsby-image "^2.2.7"
     gatsby-paginate "^1.1.0"
@@ -1145,6 +1146,7 @@
     html-to-compiled-mdx "^1.0.0"
     lodash "^4.17.15"
     prism-react-renderer "^0.1.7"
+    react-facebook "^8.1.4"
     react-helmet "^5.2.1"
     react-live "^2.2.0"
     react-medium-image-zoom "^4.0.2"
@@ -6509,6 +6511,11 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+disqus-react@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.0.9.tgz#ae66a3582e80dc22a493d53be5910143af9b7d5f"
+  integrity sha512-UoWAt0dJGsxQ/4SBYkTnNLqNzpDfAk9a/xTirkCKU5qFy9YbVN6JdZ4lUy9Mf7mz1B7eHkLtRXqVvY1KhpM4Hg==
 
 dns-equal@^1.0.0:
   version "1.0.0"
