@@ -6,6 +6,10 @@
     - CMS:Headless
     - SEO
     - Styling:SCSS
+    - Markdown
+    - MDX
+    - Styling:CSS-in-JS
+    - Styling:Theme-UI
   features:
     - Novela theme by Narrative
     - Data sourcing from headless Ghost
