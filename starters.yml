@@ -2,14 +2,21 @@
   repo: https://github.com/draftbox-co/gatsby-ghost-novela-starter
   description: A Gatsby starter for creating blogs from headless Ghost CMS.
   tags:
+    - AMP
     - Blog
     - CMS:Headless
-    - SEO
-    - Styling:SCSS
+    - CMS:Other
+    - Disqus
+    - Language:TypeScript
     - Markdown
     - MDX
-    - Styling:CSS-in-JS
-    - Styling:Theme-UI
+    - Netlify
+    - Pagination
+    - PWA
+    - RSS
+    - SEO
+    - Styling:CSS-in-JS  - Novela
+    - Styling:Theme-UI - Novela
   features:
     - Novela theme by Narrative
     - Data sourcing from headless Ghost
