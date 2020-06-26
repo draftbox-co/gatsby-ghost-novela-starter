@@ -1094,10 +1094,10 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.9.tgz#242bff5bb3258b3e81ae6a0aa0bb6fee455cc19d"
-  integrity sha512-131TlOR+RyNHQlYVW833c8M5MQ6PxGtl0OLBfQ1UYdB5I5pssbzBkYUp113QG7Qde6BtANAW6Gb9U2BP9so3GQ==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.11.tgz#c9dcf49ba1ceddcf57dbc516474693c123bd6616"
+  integrity sha512-KHkbUzcM0XbzJba7Xx5YBQc6AvB3vs/ZLFhmaF/LoJrLMH+/3bo2Y3p1w5kwUeZKtb4UxUaL+KZ2u69gi6BRZw==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@blocks/kit" "^0.0.28"
@@ -1143,7 +1143,7 @@
     gatsby-transformer-remark "^2.6.9"
     gatsby-transformer-sharp "^2.2.4"
     gatsby-transformer-yaml "^2.2.4"
-    html-to-compiled-mdx "^1.0.0"
+    html-to-compiled-mdx "^1.0.1"
     lodash "^4.17.15"
     prism-react-renderer "^0.1.7"
     react-facebook "^8.1.4"
@@ -10292,10 +10292,10 @@ html-tag-names@^1.1.5:
   resolved "https://registry.yarnpkg.com/html-tag-names/-/html-tag-names-1.1.5.tgz#f537420c16769511283f8ae1681785fbc89ee0a9"
   integrity sha512-aI5tKwNTBzOZApHIynaAwecLBv8TlZTEy/P4Sj2SzzAhBrGuI8yGZ0UIXVPQzOHGS+to2mjb04iy6VWt/8+d8A==
 
-html-to-compiled-mdx@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.0.tgz#b57fe02ccdeedf76b27b425fcc28e577929ae7d8"
-  integrity sha512-8FampL2V5+cBoe/ZUuR8pIbv5im4XmK6/24C2Sog1RdUoYIaN+U8TNyDPuI4Fvob44eRoks+DtN2efHgSJ3p4A==
+html-to-compiled-mdx@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.1.tgz#3a42cc85019e1afc55619cf620e85acc55f8a2c2"
+  integrity sha512-yESNMqmqecVEBlSYfDcqAjQ8Be/ceevksYVyluh3uJ3FUEMoLDtZJggYPkO1dRL+l6ynypsmTnd/XSo1nfPY5w==
   dependencies:
     "@babel/core" "7.2.0"
     "@babel/plugin-proposal-object-rest-spread" "7.10.1"
@@ -10307,6 +10307,7 @@ html-to-compiled-mdx@^1.0.0:
     babel-plugin-remove-export-keywords "1.6.5"
     camelcase-css "2.0.1"
     change-case "4.1.1"
+    hast-util-to-html "^7.1.1"
     rehype "11.0.0"
     rehype-parse "7.0.0"
     rehype-remark "8.0.0"
