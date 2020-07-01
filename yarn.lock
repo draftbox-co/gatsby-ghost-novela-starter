@@ -1094,13 +1094,14 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.11.tgz#c9dcf49ba1ceddcf57dbc516474693c123bd6616"
-  integrity sha512-KHkbUzcM0XbzJba7Xx5YBQc6AvB3vs/ZLFhmaF/LoJrLMH+/3bo2Y3p1w5kwUeZKtb4UxUaL+KZ2u69gi6BRZw==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.13.tgz#cb96a8e2e887217dfb866276b3d6d12f9bd03d9f"
+  integrity sha512-ombG/XDchi+fxTA+VUhadzGtcYLMxM+rlE582DyFGY5IA397LabnBpnZmt87RGU8ACX4HMSYppsUO36UIT0aBg==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@blocks/kit" "^0.0.28"
+    "@draftbox-co/html-to-compiled-mdx" "1.0.2"
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
     "@mdx-js/mdx" "^1.6.5"
@@ -1143,7 +1144,8 @@
     gatsby-transformer-remark "^2.6.9"
     gatsby-transformer-sharp "^2.2.4"
     gatsby-transformer-yaml "^2.2.4"
-    html-to-compiled-mdx "^1.0.1"
+    hast-util-to-html "^7.1.1"
+    hast-util-to-mdast "^7.1.1"
     lodash "^4.17.15"
     prism-react-renderer "^0.1.7"
     react-facebook "^8.1.4"
@@ -1157,6 +1159,33 @@
     slugify "^1.3.6"
     theme-ui "^0.2.40"
     typeface-merriweather "^0.0.72"
+    unist-util-visit "^2.0.2"
+
+"@draftbox-co/html-to-compiled-mdx@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.2.tgz#59bb0f258d3313f68f4470002ba1d94d95704186"
+  integrity sha512-Mry/No53K2XV38lu8oTgtH3e9iQOLRMRt2vYv3jOoOhL7ta20I2mQLnRFf4KYiv7T1rpZqtWkC6hSa72CJbsXQ==
+  dependencies:
+    "@babel/core" "7.2.0"
+    "@babel/plugin-proposal-object-rest-spread" "7.10.1"
+    "@babel/preset-env" "^7.10.2"
+    "@babel/preset-react" "^7.10.1"
+    "@babel/types" "7.10.2"
+    "@mdx-js/mdx" "1.6.5"
+    babel-plugin-pluck-imports "0.0.1"
+    babel-plugin-remove-export-keywords "1.6.5"
+    camelcase-css "2.0.1"
+    change-case "4.1.1"
+    hast-util-to-html "^7.1.1"
+    hast-util-to-mdast "^7.1.1"
+    rehype "11.0.0"
+    rehype-parse "7.0.0"
+    rehype-remark "8.0.0"
+    remark "12.0.0"
+    style-to-object "0.3.0"
+    unified "9.0.0"
+    unified-stream "1.0.6"
+    unist-util-visit "^2.0.2"
 
 "@ember-data/rfc395-data@^0.0.4":
   version "0.0.4"
@@ -10075,7 +10104,7 @@ hast-util-to-html@^7.1.1:
     unist-util-is "^4.0.0"
     xtend "^4.0.0"
 
-hast-util-to-mdast@^7.0.0:
+hast-util-to-mdast@^7.0.0, hast-util-to-mdast@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/hast-util-to-mdast/-/hast-util-to-mdast-7.1.1.tgz#1fc4440fc670273a1a7041584be08e5bb1d037ac"
   integrity sha512-MXD6n7sxvmg1ntpugcGAE0AD+SrZWUqlJgLjYZr93697s3TWgsrs/PGXcgk/E7mvcj4q85tZy5grsMDKzmqBxA==
@@ -10291,30 +10320,6 @@ html-tag-names@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/html-tag-names/-/html-tag-names-1.1.5.tgz#f537420c16769511283f8ae1681785fbc89ee0a9"
   integrity sha512-aI5tKwNTBzOZApHIynaAwecLBv8TlZTEy/P4Sj2SzzAhBrGuI8yGZ0UIXVPQzOHGS+to2mjb04iy6VWt/8+d8A==
-
-html-to-compiled-mdx@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.1.tgz#3a42cc85019e1afc55619cf620e85acc55f8a2c2"
-  integrity sha512-yESNMqmqecVEBlSYfDcqAjQ8Be/ceevksYVyluh3uJ3FUEMoLDtZJggYPkO1dRL+l6ynypsmTnd/XSo1nfPY5w==
-  dependencies:
-    "@babel/core" "7.2.0"
-    "@babel/plugin-proposal-object-rest-spread" "7.10.1"
-    "@babel/preset-env" "^7.10.2"
-    "@babel/preset-react" "^7.10.1"
-    "@babel/types" "7.10.2"
-    "@mdx-js/mdx" "1.6.5"
-    babel-plugin-pluck-imports "0.0.1"
-    babel-plugin-remove-export-keywords "1.6.5"
-    camelcase-css "2.0.1"
-    change-case "4.1.1"
-    hast-util-to-html "^7.1.1"
-    rehype "11.0.0"
-    rehype-parse "7.0.0"
-    rehype-remark "8.0.0"
-    remark "12.0.0"
-    style-to-object "0.3.0"
-    unified "9.0.0"
-    unified-stream "1.0.6"
 
 html-void-elements@^1.0.0, html-void-elements@^1.0.1:
   version "1.0.5"
