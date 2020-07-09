@@ -1094,10 +1094,10 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.20.tgz#7f323cc14d4aa0c121d1e84d3d1344c5ae151ac5"
-  integrity sha512-fZ4LpcViuRgJwecZnJ9JwBfIwIVIfsDoEucFkdR5bnaR3KMru79tMw615Nx7FXo3sqbSLWv2+afYFfYJV3pBng==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.21.tgz#a4b7469a50eff4f0ce2dd2476e38a14c2faf8311"
+  integrity sha512-UlmrjgE5+j4rpR/XUCQ3eH1Hv3ArTRvyvkxw8ZyHXiv2fba0S7GbME/951tBqzhN4lUVbz3r0oPRlyQWAgdJeQ==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@blocks/kit" "^0.0.28"
