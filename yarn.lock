@@ -1094,14 +1094,14 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.23.tgz#71d262bed39240e8f25f8909b4d965263a4c2d6f"
-  integrity sha512-AkY8dVTdrBecryHuvzSfGko33X5uaXXWQzJHmji5+LcOedFZBXJr7ybeUB2T4lZ9BgRDYAYIUBYf54Mgds7RhA==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.24":
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.24.tgz#1315da7f34d862c5732cd228207b185e747e83af"
+  integrity sha512-CKNsEqCpnXd7+Xp/nkhIDXHjf/Ug36M4aheXB4eoqmbssgfon2041cpDGr/F1qJ8/fHCACDzBReOIfyhDOBY9Q==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@blocks/kit" "^0.0.28"
-    "@draftbox-co/html-to-compiled-mdx" "1.0.2"
+    "@draftbox-co/html-to-compiled-mdx" "^1.0.3"
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
     "@mdx-js/mdx" "^1.6.5"
@@ -1151,7 +1151,7 @@
     react-facebook "^8.1.4"
     react-helmet "^5.2.1"
     react-live "^2.2.0"
-    react-medium-image-zoom "^4.0.2"
+    react-medium-image-zoom "^4.2.0"
     react-outside-click-handler "^1.2.4"
     reading-time "^1.2.0"
     remark-slug "^5.1.2"
@@ -1161,10 +1161,10 @@
     typeface-merriweather "^0.0.72"
     unist-util-visit "^2.0.2"
 
-"@draftbox-co/html-to-compiled-mdx@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.2.tgz#59bb0f258d3313f68f4470002ba1d94d95704186"
-  integrity sha512-Mry/No53K2XV38lu8oTgtH3e9iQOLRMRt2vYv3jOoOhL7ta20I2mQLnRFf4KYiv7T1rpZqtWkC6hSa72CJbsXQ==
+"@draftbox-co/html-to-compiled-mdx@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/html-to-compiled-mdx/-/html-to-compiled-mdx-1.0.3.tgz#22fbcb39c4534a5bd1692d52f9929ce567a03788"
+  integrity sha512-h8x/5sG/ecuXFjehqNbjy49lQrdYx1dQTXT1d5w3ujrQcG7or+yxsrVdHlsZLGCG76byvFh9ZUGLdw1HkIdJ0A==
   dependencies:
     "@babel/core" "7.2.0"
     "@babel/plugin-proposal-object-rest-spread" "7.10.1"
@@ -15443,7 +15443,7 @@ react-live@^2.2.0:
     react-simple-code-editor "^0.10.0"
     unescape "^1.0.1"
 
-react-medium-image-zoom@^4.0.2:
+react-medium-image-zoom@^4.2.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-medium-image-zoom/-/react-medium-image-zoom-4.3.1.tgz#4049db708791fc199714c6c6266169d75e8787e6"
   integrity sha512-BGJyidkJdhmBWxjtg3m0bNd14yK9MC8CdlhmsLNPK/Bd08SZdjLcJQRQX4RUvw9fanQWcI4gaiItHIXZnyctUw==
