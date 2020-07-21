@@ -112,7 +112,7 @@ if (process.env.GATSBY_TAWK_ID) {
 }
 
 if (process.env.GATSBY_CRISP_ID) {
-  gatsbyPlugins.unshift({
+  gatsbyPlugins.push({
     resolve: `@draftbox-co/gatsby-plugin-crisp-chat-lazy`,
     options: {
       websiteId: process.env.GATSBY_CRISP_ID,
@@ -123,7 +123,7 @@ if (process.env.GATSBY_CRISP_ID) {
 }
 
 if (process.env.GATSBY_OLARK_ID) {
-  gatsbyPlugins.unshift({
+  gatsbyPlugins.push({
     resolve: `@draftbox-co/gatsby-plugin-olark-lazy`,
     options: {
       olarkSiteID: process.env.GATSBY_OLARK_ID,
