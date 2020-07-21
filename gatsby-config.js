@@ -16,13 +16,13 @@ try {
     development: {
       apiUrl: process.env.GHOST_API_URL,
       contentApiKey: process.env.GHOST_CONTENT_API_KEY,
-      version: process.env.GHOST_VERSION
+      version: process.env.GHOST_VERSION,
     },
     production: {
       apiUrl: process.env.GHOST_API_URL,
       contentApiKey: process.env.GHOST_CONTENT_API_KEY,
-      version: process.env.GHOST_VERSION
-    }
+      version: process.env.GHOST_VERSION,
+    },
   };
 } finally {
   const { apiUrl, contentApiKey } =
@@ -41,12 +41,12 @@ let gatsbyPlugins = [
     resolve: `@draftbox-co/gatsby-ghost-novela-theme`,
     options: {
       ghostConfig: ghostConfig,
-      siteConfig: siteConfig
-    }
-  }
-]
+      siteConfig: siteConfig,
+    },
+  },
+];
 
-if(process.env.SEGMENT_KEY) {
+if (process.env.SEGMENT_KEY) {
   gatsbyPlugins.push({
     resolve: `gatsby-plugin-segment-js`,
     options: {
@@ -54,39 +54,40 @@ if(process.env.SEGMENT_KEY) {
       devKey: process.env.SEGMENT_KEY,
       trackPage: true,
       delayLoad: true,
-      delayLoadTime: 1000
-    }
+      delayLoadTime: 1000,
+    },
   });
 }
 
-if(process.env.GA) {
+if (process.env.GA) {
   gatsbyPlugins.unshift({
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       trackingId: process.env.GA,
-      head: true
-    }
+      head: true,
+    },
   });
 }
 
 if (process.env.GATSBY_MIXPANEL_TOKEN) {
-  gatsbyPlugins.unshift({
+  gatsbyPlugins.push({
     resolve: `gatsby-plugin-mixpanel`,
     options: {
       apiToken: process.env.GATSBY_MIXPANEL_TOKEN,
       enableOnDevMode: true,
-      pageViews: 'all'
+      pageViews: "all",
     },
   });
 }
 
 if (process.env.GATSBY_HOTJAR_ID) {
-  gatsbyPlugins.unshift({
-    resolve: `gatsby-plugin-hotjar`,
+  gatsbyPlugins.push({
+    resolve: `@draftbox-co/gatsby-plugin-hotjar-lazy`,
     options: {
       id: process.env.GATSBY_HOTJAR_ID,
-      sv: 6
-    }
+      sv: 6,
+      optimize: true,
+    },
   });
 }
 
@@ -95,39 +96,42 @@ if (process.env.GATSBY_GTAG_MANAGER_ID) {
     resolve: `gatsby-plugin-google-tagmanager`,
     options: {
       id: process.env.GATSBY_GTAG_MANAGER_ID,
-      includeInDevelopment: true
+      includeInDevelopment: true,
     },
   });
 }
 
 if (process.env.GATSBY_TAWK_ID) {
-  gatsbyPlugins.unshift({
-    resolve: `gatsby-plugin-tawk`,
+  gatsbyPlugins.push({
+    resolve: `@draftbox-co/gatsby-plugin-tawk-lazy`,
     options: {
       tawkId: process.env.GATSBY_TAWK_ID,
-    }
+      optimize: true
+    },
   });
 }
 
 if (process.env.GATSBY_CRISP_ID) {
   gatsbyPlugins.unshift({
-    resolve: `gatsby-plugin-crisp-chat`,
+    resolve: `@draftbox-co/gatsby-plugin-crisp-chat-lazy`,
     options: {
       websiteId: process.env.GATSBY_CRISP_ID,
-      enableDuringDevelop: true
-    }
+      enableDuringDevelop: true,
+      optimize: true
+    },
   });
 }
 
 if (process.env.GATSBY_OLARK_ID) {
   gatsbyPlugins.unshift({
-    resolve: `gatsby-plugin-olark`,
+    resolve: `@draftbox-co/gatsby-plugin-olark-lazy`,
     options: {
       olarkSiteID: process.env.GATSBY_OLARK_ID,
-    }
+      optimize: true
+    },
   });
 }
 
 module.exports = {
-  plugins: gatsbyPlugins
+  plugins: gatsbyPlugins,
 };
