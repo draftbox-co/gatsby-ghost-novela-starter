@@ -197,6 +197,12 @@ You can disable the default Ghost Handlebars theme front-end by enabling the `Ma
 
 PRs are welcome! Consider contributing to this project if you are missing feature that is also useful for others.
 
+## Credits
+
+Theme Ported from [Novela](https://github.com/narative/gatsby-theme-novela)
+
+Special Thanks to [Ghost](https://ghost.org)
+
 # Copyright & License
 
 Copyright (c) 2020 [Draftbox](https://draftbox.co) - Released under the [MIT license](LICENSE).
