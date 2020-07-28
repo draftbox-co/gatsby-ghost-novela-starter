@@ -1091,10 +1091,10 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@1.0.28":
-  version "1.0.28"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.28.tgz#6fcf4e8e04513867d1b8089d414ce73f4f794bab"
-  integrity sha512-H9KxEndf2bJwqCzfmM0Y5Uzw4VkMs4gA4RAtMNnjlgjH8r3rxJ4w1NHeySdbjWbLy5wZ/S2nXFcKCdM15reK8g==
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.30.tgz#4b6280f35743872435d6503419433df2aa205c07"
+  integrity sha512-22wHpzEVyB3Jk9jqDWxPZiUrk7kCfrufZvQSYeloxhZui94XuV0NRqdis7lTq+qLpEArFVT010VVEDKL3k1vTQ==
   dependencies:
     "@blocks/kit" "^0.0.28"
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
@@ -1122,7 +1122,6 @@
     gatsby-plugin-mdx "^1.2.15"
     gatsby-plugin-react-helmet "^3.1.2"
     gatsby-plugin-remove-generator "^1.0.5"
-    gatsby-plugin-remove-serviceworker "^1.0.0"
     gatsby-plugin-sharp "^2.2.9"
     gatsby-plugin-theme-ui "^0.2.40"
     gatsby-plugin-typescript "^2.1.2"
@@ -1143,7 +1142,7 @@
     gatsby-transformer-yaml "^2.2.4"
     hast-util-to-html "^7.1.1"
     hast-util-to-mdast "^7.1.1"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     prism-react-renderer "^0.1.7"
     react-facebook "^8.1.4"
     react-helmet "^5.2.1"
@@ -7908,11 +7907,6 @@ gatsby-plugin-remove-generator@^1.0.5:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-generator/-/gatsby-plugin-remove-generator-1.0.5.tgz#ca1da320b7a860fb6e7a1974e9b433acc45bdc39"
   integrity sha512-9Iq8JBHcc9BOp/uDCF0ctI9ntr6LjGUTgHkmwEiYiuHG6DQxutwCFQ9OVT9bomYKF/nDFQW0MfbC4eP9il4YCA==
 
-gatsby-plugin-remove-serviceworker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
-  integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
-
 gatsby-plugin-segment-js@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-segment-js/-/gatsby-plugin-segment-js-3.3.0.tgz#6cc4c7e705e24a404f9e52f4e195ffb63ae29dd5"
@@ -11525,6 +11519,11 @@ lodash@4.17.15, lodash@^4.0.1, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, l
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^1.0.2:
   version "1.0.2"
