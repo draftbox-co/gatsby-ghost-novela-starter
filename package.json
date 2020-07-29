@@ -20,7 +20,7 @@
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "@draftbox-co/gatsby-ghost-novela-theme": "1.0.30",
+    "@draftbox-co/gatsby-ghost-novela-theme": "1.0.31",
     "@draftbox-co/gatsby-plugin-crisp-chat-lazy": "^0.0.3",
     "@draftbox-co/gatsby-plugin-hotjar-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-olark-lazy": "^0.0.1",
