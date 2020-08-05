@@ -1091,9 +1091,10 @@
     theme-ui "^0.0.10"
     url-parse "^1.4.7"
 
-"@draftbox-co/gatsby-ghost-novela-theme@https://github.com/draftbox-co/gatsby-ghost-novela-theme/archive/draftbox-co-gatsby-ghost-novela-theme-v1.0.31-alpha-2-gitpkg.tar.gz":
-  version "1.0.31-alpha-2"
-  resolved "https://github.com/draftbox-co/gatsby-ghost-novela-theme/archive/draftbox-co-gatsby-ghost-novela-theme-v1.0.31-alpha-2-gitpkg.tar.gz#41c27d6c67416b9745a7bf5d2f6d8155b057ad08"
+"@draftbox-co/gatsby-ghost-novela-theme@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-novela-theme/-/gatsby-ghost-novela-theme-1.0.32.tgz#5d4f9396bf3842d0e23029a3b79034469e988a70"
+  integrity sha512-GGEuvTwCtYp50sqLGHMeCwA2tObBfESOzkzLdVAgPMifJPE7OqE4BxpgdS1kFis+aeaUzyjN8WcdDr+BBZBVxw==
   dependencies:
     "@blocks/kit" "^0.0.28"
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
