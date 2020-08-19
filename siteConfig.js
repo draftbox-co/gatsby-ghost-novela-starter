@@ -99,7 +99,7 @@ module.exports = {
   logoUrl: "logo.svg",
   iconUrl:
     "https://ghost.theasdfghjkl.com/content/images/2020/05/draftbox-colored-icon.png",
-  coverUrl: "cover.png",
+  coverUrl: "cover.jpg",
   alternateLogoUrl: "alternateLogo.svg",
   themeConfig: {
     variables: [
