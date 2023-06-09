@@ -14,7 +14,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-ghost": "^1.0.0",
     "eslint-plugin-react": "^7.19.0",
-    "gatsby": "2.21.1",
+    "gatsby": "4.25.7",
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
@@ -26,7 +26,7 @@
     "@draftbox-co/gatsby-plugin-olark-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-tawk-lazy": "^0.0.1",
     "dotenv": "^8.2.0",
-    "gatsby": "2.21.1",
+    "gatsby": "4.25.7",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-google-tagmanager": "^2.3.5",
